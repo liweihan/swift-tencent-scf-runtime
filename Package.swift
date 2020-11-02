@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "swift-tencent-scf-runtime",
     platforms: [
-        .macOS(.v10_13),
+        .macOS(.v10_15),
     ],
     products: [
         // This library exports `TencentSCFRuntimeCore` and adds Foundation convenience methods.
